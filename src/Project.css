@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: rgb(2, 41, 2);
+}
+
+a {
+    color: rgba(2, 37, 2, 0.911);
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.projectContainer {
+    background-color: rgb(83, 84, 158);
+    display: grid;
+    text-align: center;
+    
+   
+}
+
+.project_img {
+    width: 92%;
+    margin: 1rem;
+
+}
+
+section {
+    margin-bottom: 1rem;
+    border-bottom: solid 1px rgb(2, 233, 2);
+    padding-bottom: 0.5rem;
+}
