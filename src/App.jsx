@@ -11,9 +11,24 @@ const App = () => {
 
   return (
   <>
-  {/* <Home/> */}
+  <Home/>
 
   <Projects/>
+
+  <footer>
+    <a href="https://www.facebook.com/patsam%20njugush">
+      <img src="./src/assets/icon-facebook.svg" alt="facebookImg" />
+    </a>
+
+
+    <a href="https://www.facebook.com/patsam%20njugush">
+      <img src="./src/assets/icon-twitter.svg" alt="facebookImg" />
+    </a>
+
+    <a href="https://www.facebook.com/patsam%20njugush">
+      <img src="./src/assets/icon-instagram.svg" alt="facebookImg" />
+    </a>
+  </footer>
   </>
   );
 };

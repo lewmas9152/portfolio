@@ -14,6 +14,11 @@ a {
 
 }
 
+a:hover {
+    text-decoration: underline;
+    color: rgb(48, 238, 10);
+}
+
 .projectContainer {
     background-color: rgb(83, 84, 158);
     display: grid;
