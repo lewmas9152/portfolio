@@ -9,12 +9,12 @@ import Skills from "./Skills";
 const App = () => {
   return (
     <>
-      {/* <Home />
+      <Home />
 
-      <Projects /> */}
+      <Projects />
       <Skills/>
 
-      {/* <footer className="socials">
+      <footer className="socials">
         <a href="https://www.facebook.com/patsam%20njugush" target="_blank">
           <img src="./src/assets/icon-facebook.svg" alt="facebookImg"  className="socialIcons"/>
         </a>
@@ -32,7 +32,7 @@ const App = () => {
           <img src="./src/assets/icon-instagram.svg" alt="facebookImg" className="socialIcons"/>
         </a>
 
-      </footer> */}
+      </footer>
     </>
   );
 };
