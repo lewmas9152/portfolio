@@ -9,7 +9,7 @@
 .container {
   display: flex;
   justify-content: center;
-  background-image: url(./assets/portMobile.jpg);
+  background-image: url(./public/assets/portMobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -113,7 +113,7 @@ button {
 
 @media screen and (min-width: 650px) {
   .container {
-    background-image: url(./assets/port2.jpg);
+    background-image: url(./public/assets/port2.jpg);
   }
 
   .menuIcon {
