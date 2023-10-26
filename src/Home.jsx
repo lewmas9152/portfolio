@@ -26,10 +26,10 @@ const Home = () => {
       <picture>
         <source
           media="(min-width:650px)"
-          srcSet="./src/assets/myImageDesk.png"
+          srcSet="./assets/myImageDesk.png"
           className="myImage"
         />
-        <img src="./src/assets/myImage.png" alt="" className="myImage" />
+        <img src="./assets/myImage.png" alt="" className="myImage" />
       </picture>
 
       <MdOutlineMenuOpen

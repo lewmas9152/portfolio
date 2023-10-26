@@ -16,20 +16,20 @@ const App = () => {
 
       <footer className="socials">
         <a href="https://www.facebook.com/patsam%20njugush" target="_blank">
-          <img src="./src/assets/icon-facebook.svg" alt="facebookImg"  className="socialIcons"/>
+          <img src="./assets/icon-facebook.svg" alt="facebookImg"  className="socialIcons"/>
         </a>
 
         <a href="https://twitter.com/lewmas9152" target="_blank">
-          <img src="./src/assets/icon-twitter.svg" alt="facebookImg" className="socialIcons"/>
+          <img src="./assets/icon-twitter.svg" alt="facebookImg" className="socialIcons"/>
         </a>
 
         <a href="https://www.instagram.com/patsam_njugush/" target="_blank">
-          <img src="./src/assets/icon-instagram.svg" alt="facebookImg" className="socialIcons"/>
+          <img src="./assets/icon-instagram.svg" alt="facebookImg" className="socialIcons"/>
         </a>
 
 
         <a href="https://www.instagram.com/patsam_njugush/" target="_blank">
-          <img src="./src/assets/icon-instagram.svg" alt="facebookImg" className="socialIcons"/>
+          <img src="./assets/icon-instagram.svg" alt="facebookImg" className="socialIcons"/>
         </a>
 
       </footer>
