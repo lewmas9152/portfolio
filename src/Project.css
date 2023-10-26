@@ -16,12 +16,13 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: rgb(48, 238, 10);
+    color: rgb(8, 52, 146);
 }
 
 .projectContainer {
     background-color: rgb(83, 84, 158);
     display: grid;
+ 
     text-align: center;
     
    
@@ -37,4 +38,32 @@ section {
     margin-bottom: 1rem;
     border-bottom: solid 1px rgb(2, 233, 2);
     padding-bottom: 0.5rem;
+    border: 2px solid rgb(2, 233, 2);
+    margin: 1rem;
+    background-color: rgba(22, 228, 22, 0.849);
+    padding: 1rem;
 }
+
+
+@media screen and (min-width:650px){
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        place-items: center;
+        justify-content: space-evenly;
+    }
+
+    section {
+        border-bottom: 0;
+        border: 2px solid rgb(2, 233, 2);
+        margin: 1rem;
+        background-color: rgba(22, 228, 22, 0.849);
+        padding: 1rem;
+    }
+
+    .lastProject{
+        grid-column: 2 ;
+        justify-self: center;
+      }
+
+  }
