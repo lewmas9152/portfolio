@@ -9,7 +9,7 @@
 .container {
   display: flex;
   justify-content: center;
-  background-image: url(./public/assets/portMobile.jpg);
+  background-image: url(./src/assets/portMobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -51,7 +51,6 @@
   font-size: 15px;
   font-weight: 700;
   border-radius: 1rem;
-  
 }
 
 .navBtn:hover {
@@ -115,9 +114,8 @@ button {
 
 @media screen and (min-width: 650px) {
   .container {
-    background-image: url(./public/assets/port2.jpg);
+    background-image: url(./src/assets/port2.jpg);
   }
-
 
   .menuIcon {
     display: none;
@@ -132,7 +130,7 @@ button {
 
   .card {
     position: relative;
-    max-width:100ch;
+    max-width: 100ch;
     max-height: 30rem;
   }
 }
