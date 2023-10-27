@@ -2,27 +2,10 @@ import { MdOutlineMenuOpen } from "react-icons/md";
 import { useState } from "react";
 
 const Home = () => {
-  const [hide, setHide] = useState(true);
-
-  const displayMenu = () => {
-    setHide((prevHide) => !prevHide);
-  };
-
-  const menu = () => {
-    if (!hide) {
-      return (
-        <nav className="navBar">
-          <button className="navBtn">Home</button>
-          <button className="navBtn">Projects</button>
-          <button className="navBtn">Skills</button>
-          <button className="navBtn">Contacts</button>
-        </nav>
-      );
-    }
-  };
+  
 
   return (
-    <main className="container">
+    <main className="container" id="home">
       <picture>
         <source
           media="(min-width:650px)"
@@ -32,11 +15,7 @@ const Home = () => {
         <img src="./assets/myImage.png" alt="" className="myImage" />
       </picture>
 
-      <MdOutlineMenuOpen
-        size="3rem"
-        className="menuIcon"
-        onClick={displayMenu}
-      />
+    
       <div className="card">
         <div className="intro">
           <h2>
@@ -50,7 +29,7 @@ const Home = () => {
             fuga doloribus. Ea, expedita esse!
           </p>
         </div>
-        {menu()}
+        
       </div>
     </main>
   );

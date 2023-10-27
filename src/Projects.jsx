@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="projectContainer">
       <h1>Featured projects</h1>
- <div className="projects">
+ <div className="projects" id="projects">
  <section>
       <a href="https://lewmas9152.github.io/socialmedia/" target="_blank">
       <img src="./assets/project1.jpg" alt="project1-img" className="project_img" />

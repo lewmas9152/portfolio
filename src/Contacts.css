@@ -1,0 +1,38 @@
+.contactsContainer {
+  text-align: center;
+  background-image: url(/public/assets/contact.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactsContainer p {
+  color: rgb(8, 8, 8);
+  font-weight: 700;
+}
+
+.promo {
+  color: blue;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contacts {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.cont {
+  display: flex;
+  gap: 1rem;
+  text-align: start;
+  align-items: center;
+}
+
+
+@media screen and (min-width:650px) {
+    .contactsContainer {
+        background-image: url(/public/assets/desktopContacts.jpg);
+        background-size: unset;
+        background-repeat: unset;
+    }
+}
