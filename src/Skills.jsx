@@ -3,12 +3,12 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <main className="skillsContainer">
+    <main className="skillsContainer" >
       <h1>Skills</h1>
       <blockquote>~Learning is a life time experience~</blockquote>
 
       <h3 align="left">Languages and Tools:</h3>
-      <div className="langIcons">
+      <div className="langIcons" >
         <img
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
           alt="c"

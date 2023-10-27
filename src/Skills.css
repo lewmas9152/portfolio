@@ -1,5 +1,5 @@
 .skillsContainer {
-    background-image: url(./assets/mobileSkills.jpg);
+    background-image: url(/public/assets/mobileSkills.jpg);
     background-size: cover;
     display: grid;
     padding: 1rem;
@@ -50,7 +50,7 @@ blockquote {
 
 @media screen and (min-width:650px){
     .skillsContainer {
-        background-image: url(./assets/skillsDesktop.jpg);
+        background-image: url(/public/assets/skillsDesktop.jpg);
         /* Add a semi-transparent black overlay */
         position: relative;
         &::after {
