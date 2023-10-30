@@ -1,5 +1,5 @@
 .skillsContainer {
-    background-image: url(/public/assets/mobileSkills.jpg);
+    background-image: url(/assets/mobileSkills.jpg);
     background-size: cover;
     display: grid;
     padding: 1rem;
@@ -33,12 +33,13 @@ blockquote {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 1rem;
+   
 
 }
 
 .icons {
-    height: 3rem;
-    width: 3rem;
+    height: 8rem;
+    width: 8rem;
   
     
 }
@@ -48,9 +49,14 @@ blockquote {
     
 }
 
+.trophies {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
 @media screen and (min-width:650px){
     .skillsContainer {
-        background-image: url(/public/assets/skillsDesktop.jpg);
+        background-image: url(/assets/skillsDesktop.jpg);
         /* Add a semi-transparent black overlay */
         position: relative;
         &::after {

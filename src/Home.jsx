@@ -1,4 +1,3 @@
-import { MdOutlineMenuOpen } from "react-icons/md";
 import { useState } from "react";
 
 const Home = () => {

@@ -116,12 +116,11 @@ button {
     background-image: url(/public/assets/port2.jpg);
   }
 
-  .menuIcon {
-    display: none;
-  }
+
 
   .navBar {
     flex-direction: row;
+   
   }
   .myImage {
     width: unset;

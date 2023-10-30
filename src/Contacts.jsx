@@ -1,5 +1,5 @@
 import React from "react";
-import './Contacts.css';
+import "./Contacts.css";
 
 const Contacts = () => {
   return (
@@ -17,10 +17,10 @@ const Contacts = () => {
             alt="location-icon"
             className="socialIcons"
           />
-         <div className="label">
-         <h2>Location</h2>
-          <p>Nyeri,Kenya</p>
-         </div>
+          <div className="label">
+            <h2>Location</h2>
+            <p>Nyeri,Kenya</p>
+          </div>
         </div>
 
         <div className="email cont">
@@ -29,10 +29,10 @@ const Contacts = () => {
             alt="email-icon"
             className="socialIcons"
           />
-         <div className="label">
-         <h2>Email</h2>
-          <p>Smnjuguna22@gmail.com</p>
-         </div>
+          <div className="label">
+            <h2>Email</h2>
+            <p>smnjuguna22@gmail.com</p>
+          </div>
         </div>
 
         <div className="phone cont">
@@ -41,12 +41,31 @@ const Contacts = () => {
             alt="phoneIcon"
             className="socialIcons "
           />
-         <div className="label">
-         <h2>Call</h2>
-          <p>+254723128290</p>
-         </div>
+          <div className="label">
+            <h2>Call</h2>
+            <p>+254723128290</p>
+          </div>
         </div>
+      
       </div>
+      <form action="" className="form">
+        <code>~Want some help making your site more responsive and worth visiting~</code>
+          <h3>Send me an email</h3>
+          <label>
+            Name
+            <input type="text" placeholder="e.g Njuguna samwel"/>
+          </label>
+
+          <label>
+            Email
+            <input type="email" placeholder="e.g smnjuguna22@gmail.com"/>
+          </label>
+
+          <label>
+            Message
+           <textarea name="" id="" cols="30" rows="10"></textarea>
+          </label>
+        </form>
     </main>
   );
 };
