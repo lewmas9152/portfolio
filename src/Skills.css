@@ -1,73 +1,91 @@
 .skillsContainer {
-    background-image: url(/assets/mobileSkills.jpg);
-    background-size: cover;
-    display: grid;
-    padding: 1rem;
-    color: white;
-    /* place-content: center; */
-    
+  background-image: url(/assets/mobileSkills.jpg);
+  background-size: cover;
+  display: grid;
+  padding: 1rem;
+  color: white;
+  /* place-content: center; */
 }
 
 .skillsContainer h1 {
-    text-align: center;
-    color: rgb(6, 6, 250);
+  text-align: center;
+  color: rgb(6, 6, 250);
 }
 
 .skillsContainer h3 {
-    color: rgb(8, 252, 8);
-    margin-bottom: 1rem;
+  color: rgb(8, 252, 8);
+  margin-bottom: 1rem;
 }
 
 blockquote {
-    font-size: 25px;
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 2rem;
-    font-style: italic;
-    font-weight: 500;
-    
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+  font-style: italic;
+  font-weight: 500;
 }
 
-.langIcons {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 1rem;
-   
 
+
+.langIcons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
 .icons {
-    height: 8rem;
-    width: 8rem;
-  
+  height: 5rem;
+  width: 5rem;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
     
 }
 
 .mostLangs {
-    place-self: center;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .trophies {
-    max-width: 100%;
-    margin-bottom: 1rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 
-@media screen and (min-width:650px){
-    .skillsContainer {
-        background-image: url(/assets/skillsDesktop.jpg);
-        /* Add a semi-transparent black overlay */
-        position: relative;
-        &::after {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(12, 12, 12, 0.5);
-          opacity: 0.5;
-        }
-      }
+.stats {
+    max-width: 90vw;
+    
+    
+}
+
+@media screen and (min-width: 650px) {
+  .skillsContainer {
+    background-image: url(/assets/skillsDesktop.jpg);
+    /* Add a semi-transparent black overlay */
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(12, 12, 12, 0.5);
+      opacity: 0.5;
+    }
+
+    .icons {
+      height: 8rem;
+      width: 8rem;
+    }
+
+    .mostLangs {
+      flex-direction: row;
+    }
+  }
 }

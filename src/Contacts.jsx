@@ -1,5 +1,8 @@
 import React from "react";
 import "./Contacts.css";
+import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Contacts = () => {
   return (
@@ -12,10 +15,8 @@ const Contacts = () => {
 
       <div className="contacts">
         <div className="location cont">
-          <img
-            src="/assets/location-on.svg"
-            alt="location-icon"
-            className="socialIcons"
+          <LocationOnIcon
+            className="materialIcon"
           />
           <div className="label">
             <h2>Location</h2>
@@ -24,10 +25,8 @@ const Contacts = () => {
         </div>
 
         <div className="email cont">
-          <img
-            src="/assets/email-solid.svg"
-            alt="email-icon"
-            className="socialIcons"
+          <MailOutlineIcon
+            className="materialIcon"
           />
           <div className="label">
             <h2>Email</h2>
@@ -36,10 +35,8 @@ const Contacts = () => {
         </div>
 
         <div className="phone cont">
-          <img
-            src="/assets/phone.svg"
-            alt="phoneIcon"
-            className="socialIcons "
+          <PermPhoneMsgIcon
+          className="materialIcon"
           />
           <div className="label">
             <h2>Call</h2>

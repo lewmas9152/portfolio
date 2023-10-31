@@ -6,6 +6,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Contacts from "./Contacts";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const App = () => {
   const [hide, setHide] = useState(true);
@@ -69,9 +70,8 @@ const App = () => {
         </a>
 
         <a href="https://www.instagram.com/patsam_njugush/" target="_blank">
-          <img
-            src="/assets/linkedin.svg"
-            alt="linkedinIcon"
+          <LinkedInIcon 
+           
             className="socialIcons"
           />
         </a>

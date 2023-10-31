@@ -71,6 +71,8 @@ textarea {
   color: white;
 }
 
+
+
 @media screen and (min-width: 650px) {
   .contactsContainer {
     background-image: unset;

@@ -58,25 +58,27 @@ const Skills = () => {
         />
       </div>
 
-      <h3 align="left">🏆 Github Trophies:</h3>
-
-      <img className="trophies"
-        src="https://github-profile-trophy.vercel.app/?username=Lewmas9152&theme=radical&no-frame=false&no-bg=false&margin-w=4"
-        alt="GitHub Trophies"
-        
-      />
-
-      <div className="mostLangs">
-        <img
-          src="https://github-readme-stats.vercel.app/api/top-langs?username=lewmas9152&show_icons=true&locale=en&layout=compact"
-          alt="lewmas9152"
-        />
+      <div className="achievements">
+        <h3 align="left">🏆 Github Trophies:</h3>
 
         <img
-          align="center"
-          src="https://github-readme-stats.vercel.app/api?username=lewmas9152&show_icons=true&locale=en"
-          alt="lewmas9152"
+          className="trophies"
+          src="https://github-profile-trophy.vercel.app/?username=Lewmas9152&theme=radical&no-frame=false&no-bg=false&margin-w=4"
+          alt="GitHub Trophies"
         />
+
+        <div className="mostLangs">
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=lewmas9152&show_icons=true&locale=en&layout=compact"
+            alt="lewmas9152"
+          />
+
+          <img
+            className="stats"
+            src="https://github-readme-stats.vercel.app/api?username=lewmas9152&show_icons=true&locale=en"
+            alt="lewmas9152"
+          />
+        </div>
       </div>
     </main>
   );

@@ -31,6 +31,7 @@
   position: fixed;
   right: 0;
   color: rgb(45, 233, 7);
+  cursor: pointer;
 }
 
 .navBar {
@@ -51,6 +52,7 @@
   font-size: 15px;
   font-weight: 700;
   border-radius: 1rem;
+ 
 }
 
 .navBtn:hover {
@@ -105,11 +107,10 @@ span {
 
 .socialIcons {
   height: 2rem;
+  
 }
 
-button {
-  background-color: red;
-}
+
 
 @media screen and (min-width: 650px) {
   .container {
