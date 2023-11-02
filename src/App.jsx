@@ -6,7 +6,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Contacts from "./Contacts";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const App = () => {
   const [hide, setHide] = useState(true);
@@ -19,10 +19,21 @@ const App = () => {
     if (!hide) {
       return (
         <nav className="navBar">
-          <button className="navBtn">Home</button>
-          <button className="navBtn">Projects</button>
-          <button className="navBtn">Skills</button>
-          <button className="navBtn">Contacts</button>
+          <a href="#home">
+            {" "}
+            <button className="navBtn">Home</button>
+          </a>
+          <a href="#projects">
+            <button className="navBtn">Projects</button>
+          </a>
+          <a href="#skills">
+            {" "}
+            <button className="navBtn">Skills</button>
+          </a>
+          <a href="#contacts">
+            {" "}
+            <button className="navBtn">Contacts</button>
+          </a>
         </nav>
       );
     }
@@ -70,10 +81,7 @@ const App = () => {
         </a>
 
         <a href="https://www.instagram.com/patsam_njugush/" target="_blank">
-          <LinkedInIcon 
-           
-            className="socialIcons"
-          />
+          <LinkedInIcon className="socialIcons" />
         </a>
       </footer>
     </>
