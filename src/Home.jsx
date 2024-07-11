@@ -23,7 +23,7 @@ const Home = () => {
           <quote>~Making your experience better~</quote>
           <p>
             I'm currently studying for my degree in Computer Science at Dedan Kimathi University of Technology.I have been working 
-            on design for 2 years so far and i must admit i enjoy being in the field.
+            on my programming skills for 2 years so far and i must admit i enjoy being in the field.
           </p>
         </div>
         
