@@ -18,7 +18,7 @@ const Home = () => {
       <div className="card">
         <div className="intro">
           <h2>
-            <span>Hi,</span> <br /> I'm Sam a Frontend web developer
+            <span>Hi,</span> <br /> I'm Sam a software developer
           </h2>
           <quote>~Making your experience better~</quote>
           <p>
